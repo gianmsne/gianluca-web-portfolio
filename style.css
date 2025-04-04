@@ -1,0 +1,49 @@
+/* 
+   File: style.css
+   Author: Gianluca M
+   Last Modified: April 2025
+   Description: A stylesheet for my web portfolio!
+*/
+
+body {
+    background-color: #1C1C1E;
+    color: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;                
+    /* outline: 2px solid rgb(158, 158, 163); */
+}
+
+
+h1 {
+    margin: 0;               /* Removes the default margin */
+    padding: 0;              /* Removes the default padding */
+}
+
+pre {
+    margin: 0;               /* Removes the default margin */
+    padding: 0;              /* Removes the default padding */
+}
+
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid red;
+}
+
+.page-main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 25%;
+    outline: 2px solid blue;
+
+}
