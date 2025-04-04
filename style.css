@@ -5,11 +5,14 @@
    Description: A stylesheet for my web portfolio!
 */
 
-body {
+html {
     background-color: #1C1C1E;
-    color: #eaeaea;
+}
+
+
+body {
+    color: #dcdcdc;
     font-family: 'Roboto', sans-serif;
-    
 }
 
 header {
@@ -36,14 +39,14 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 2px solid red;
+    
 }
 
 .page-main {
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 25%;
-    outline: 2px solid blue;
-
+    max-width: 670px;
+    /* outline: 2px solid blue; */
+    line-height: 1.5;
 }
